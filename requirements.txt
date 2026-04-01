@@ -1,0 +1,9 @@
+torch
+opencv-python
+numpy
+Pillow
+tqdm
+transformers
+evaluate
+ptflops
+codecarbon
