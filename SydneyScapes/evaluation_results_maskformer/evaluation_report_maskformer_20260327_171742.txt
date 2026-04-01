@@ -1,0 +1,42 @@
+========================================
+Evaluation Results for MaskFormer (facebook/maskformer-resnet101-cityscapes)
+Date: 2026-03-27T17:17:42.025807
+========================================
+
+1. Model Info:
+   Parameters: 60.27 M
+   GFLOPS (at 1024x1024): 537.63
+
+2. Performance:
+   Input Resolution: 1920x1208
+   Average Inference Time: 0.0957 s
+   FPS: 10.45
+
+3. Environmental Impact:
+   Estimated Carbon Footprint: 0.000877 kg CO2
+
+4. Segmentation Accuracy:
+   Mean IoU: 0.4693
+   Mean Accuracy: 0.6047
+   Overall Accuracy: 0.8048
+
+Per-class IoU:
+  road           : 0.7031
+  sidewalk       : 0.4946
+  building       : 0.6656
+  wall           : 0.0440
+  fence          : 0.3280
+  pole           : 0.3975
+  traffic light  : 0.3777
+  traffic sign   : 0.3542
+  vegetation     : 0.6785
+  terrain        : 0.5223
+  sky            : 0.8377
+  person         : 0.7306
+  rider          : 0.3929
+  car            : 0.6483
+  truck          : 0.4800
+  bus            : 0.2202
+  train          : 0.0000
+  motorcycle     : 0.4855
+  bicycle        : 0.5556

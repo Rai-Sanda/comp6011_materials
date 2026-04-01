@@ -1,0 +1,42 @@
+========================================
+Evaluation Results for nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+Date: 2026-03-27T16:26:03.179857
+========================================
+
+1. Model Info:
+   Parameters: 3.72 M
+   GFLOPS (at 1024x1024): 88.75
+
+2. Performance:
+   Input Resolution: 1920x1208
+   Average Inference Time: 0.0090 s
+   FPS: 111.17
+
+3. Environmental Impact:
+   Estimated Carbon Footprint: 0.000515 kg CO2
+
+4. Segmentation Accuracy:
+   Mean IoU: 0.3895
+   Mean Accuracy: 0.5055
+   Overall Accuracy: 0.8203
+
+Per-class IoU:
+  road           : 0.8137
+  sidewalk       : 0.4054
+  building       : 0.7562
+  wall           : 0.0183
+  fence          : 0.2166
+  pole           : 0.2339
+  traffic light  : 0.2269
+  traffic sign   : 0.1624
+  vegetation     : 0.6688
+  terrain        : 0.5654
+  sky            : 0.7787
+  person         : 0.5222
+  rider          : 0.2618
+  car            : 0.6750
+  truck          : 0.3414
+  bus            : 0.1772
+  train          : 0.0027
+  motorcycle     : 0.2338
+  bicycle        : 0.3398
