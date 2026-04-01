@@ -1,0 +1,42 @@
+========================================
+Evaluation Results for SAM2 (facebook/sam2-hiera-tiny)
+Date: 2026-03-27T17:37:48.987353
+========================================
+
+1. Model Info:
+   Parameters: 31.44 M
+   GFLOPS (at 1024x1024): 211.48
+
+2. Performance:
+   Input Resolution: 1920x1208
+   Average Inference Time (including Oracle): 3.6452 s
+   FPS: 0.27
+
+3. Environmental Impact:
+   Estimated Carbon Footprint: 0.015031 kg CO2
+
+4. Segmentation Accuracy (Oracle):
+   Mean IoU: 0.2432
+   Mean Accuracy: 0.2826
+   Overall Accuracy: 0.4477
+
+Per-class IoU:
+  road           : 0.2666
+  sidewalk       : 0.0129
+  building       : 0.1244
+  wall           : 0.2058
+  fence          : 0.1076
+  pole           : 0.0097
+  traffic light  : 0.2376
+  traffic sign   : 0.4416
+  vegetation     : 0.0790
+  terrain        : 0.1412
+  sky            : 0.8053
+  person         : 0.0825
+  rider          : 0.0244
+  car            : 0.6061
+  truck          : 0.5427
+  bus            : 0.8373
+  train          : 0.0798
+  motorcycle     : 0.0000
+  bicycle        : 0.0154

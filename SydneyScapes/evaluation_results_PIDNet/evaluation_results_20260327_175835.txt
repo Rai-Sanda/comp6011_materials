@@ -1,0 +1,34 @@
+
+========================================
+CLASS NAME           | IoU (%)   
+----------------------------------------
+road                 |    67.07%
+sidewalk             |    40.86%
+building             |    61.95%
+wall                 |    10.53%
+fence                |    19.87%
+pole                 |    31.19%
+traffic light        |    19.81%
+traffic sign         |    25.46%
+vegetation           |    62.12%
+terrain              |    22.84%
+sky                  |    62.41%
+person               |    57.57%
+rider                |    17.47%
+car                  |    45.67%
+truck                |    27.09%
+bus                  |     9.34%
+train                |     0.21%
+motorcycle           |    20.67%
+bicycle              |    34.71%
+----------------------------------------
+OVERALL mIoU         |    33.52%
+========================================
+
+Model: PIDNet-s
+Resolution: 1920x1208
+GFLOPS (MACS): 52.86 GMac
+Parameters: 7.63 M
+Average Inference Time: 26.99 ms
+FPS: 37.05
+Estimated Carbon Footprint: 0.001432 kg CO2

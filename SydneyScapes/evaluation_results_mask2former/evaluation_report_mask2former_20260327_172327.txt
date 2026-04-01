@@ -1,0 +1,42 @@
+========================================
+Evaluation Results for Mask2Former (facebook/mask2former-swin-small-cityscapes-semantic)
+Date: 2026-03-27T17:23:27.408543
+========================================
+
+1. Model Info:
+   Parameters: 68.72 M
+   GFLOPS (at 1024x1024): 0.00
+
+2. Performance:
+   Input Resolution: 1920x1208
+   Average Inference Time: 0.0582 s
+   FPS: 17.19
+
+3. Environmental Impact:
+   Estimated Carbon Footprint: 0.000580 kg CO2
+
+4. Segmentation Accuracy:
+   Mean IoU: 0.4877
+   Mean Accuracy: 0.6467
+   Overall Accuracy: 0.8806
+
+Per-class IoU:
+  road           : 0.8908
+  sidewalk       : 0.6201
+  building       : 0.8000
+  wall           : 0.0731
+  fence          : 0.2645
+  pole           : 0.3092
+  traffic light  : 0.3246
+  traffic sign   : 0.2099
+  vegetation     : 0.7613
+  terrain        : 0.5934
+  sky            : 0.9065
+  person         : 0.5605
+  rider          : 0.2747
+  car            : 0.7691
+  truck          : 0.6341
+  bus            : 0.5224
+  train          : 0.0452
+  motorcycle     : 0.3926
+  bicycle        : 0.3135
